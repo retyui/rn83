@@ -24,6 +24,10 @@ function App() {
 }
 
 function AppContent() {
+  cancelAnimationFrame(undefined);
+  cancelAnimationFrame(null);
+  cancelAnimationFrame(-1);
+
   const safeAreaInsets = useSafeAreaInsets();
 
   return (
